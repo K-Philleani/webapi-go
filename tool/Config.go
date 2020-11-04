@@ -15,14 +15,18 @@ type Config struct {
 }
 
 type SmsConfig struct {
-	Signname 	  string `json:"sign_name"`
+	SignName 	  string `json:"sign_name"`
 	TemplateCode  string `json:"template_code"`
 	RegionId 	  string `json:"region_id"`
-	AppKey 		  string `json:"app_key"`
-	AppSecret 	  string `json:"app_secret"`
+	AccessKey 		  string `json:"access_key"`
+	AccessSecret 	  string `json:"access_secret"`
 }
 
 var _cfg *Config = nil
+
+func GetConfig () *Config {
+	return _cfg
+}
 
 func ParseConfig(path string) (*Config, error) {
 	file, err := os.Open(path)
