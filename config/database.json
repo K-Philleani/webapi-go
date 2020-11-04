@@ -1,7 +1,0 @@
-{
-  "db_name": "mysql",
-  "db_user": "root",
-  "db_pwd": "123456",
-  "address": "124.70.71.78:3306",
-  "db_table": "funk"
-}

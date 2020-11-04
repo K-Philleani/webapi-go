@@ -3,7 +3,6 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"webapi-go/controller"
-	_ "webapi-go/database"
 	"webapi-go/tool"
 )
 

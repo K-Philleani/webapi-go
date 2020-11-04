@@ -15,3 +15,4 @@ func (enter *EnterController) Enter(c *gin.Context) {
 		"message": "this is a enter",
 	})
 }
+
