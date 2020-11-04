@@ -2,6 +2,13 @@
   "app_name": "webapi-go",
   "app_mode": "debug",
   "app_host": "localhost",
-  "app_port": "8090"
+  "app_port": "8090",
+  "sms": {
+    "sign_name": "KP商城",
+    "template_code": "SMS_205403730",
+    "access_key": "LTAI4G8ze7tNRv7rfehB1vpj",
+    "access_secret": "TR4hlv16VGn3CSZFcUKUrysPPEMrmG",
+    "region_id": "cn-hangzhou"
+  }
 }
 
