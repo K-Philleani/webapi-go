@@ -4,7 +4,7 @@
   "app_host": "localhost",
   "app_port": "8090",
   "sms": {
-    "sign_name": "KpShop",
+    "sign_name": "KpShople",
     "template_code": "SMS_205404445",
     "access_key": "LTAI4G8ze7tNRv7rfehB1vpj",
     "access_secret": "TR4hlv16VGn3CSZFcUKUrysPPEMrmG",
