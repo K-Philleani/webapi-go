@@ -5,10 +5,20 @@
   "app_port": "8090",
   "sms": {
     "sign_name": "KpShople",
-    "template_code": "SMS_205404445",
-    "access_key": "LTAI4G8ze7tNRv7rfehB1vpj",
-    "access_secret": "TR4hlv16VGn3CSZFcUKUrysPPEMrmG",
+    "template_code": "SMS_205404825",
+    "access_key": "LTAI4GFiVjQzNAcVunjJjVL2",
+    "access_secret": "yLAl9HexLpOi0jDSrmnptBAEyCqy9R",
     "region_id": "cn-hangzhou"
+  },
+  "database": {
+    "driver": "mysql",
+    "user": "root",
+    "password": "123456",
+    "host": "124.70.71.78",
+    "port": "3306",
+    "db_name": "webApi",
+    "charset": "utf8",
+    "show_sql": true
   }
 }
 

@@ -12,6 +12,10 @@ func main() {
 		panic(err)
 	}
 
+	_, err = tool.OrmEngine(cfg)
+	if err != nil {
+		panic(err)
+	}
 	router := gin.Default()
 	registerRouter(router)
 	router.Run(cfg.AppHost + ":" + cfg.AppPort)
