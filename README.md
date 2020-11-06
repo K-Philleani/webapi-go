@@ -1,4 +1,4 @@
-### web-api 
+### web-api (XORM版)
 
 #### gin web框架
 - go get -u github.com/gin-gonic/gin
